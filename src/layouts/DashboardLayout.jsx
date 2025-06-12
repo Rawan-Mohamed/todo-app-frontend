@@ -15,7 +15,7 @@ const DashboardLayout = ({ user, onLogout }) => {
     <div className="todo-container">
       <Navbar bg="white" expand="lg" className="shadow-sm">
         <Container>
-          <Navbar.Brand href="#home">Todo Dashboard</Navbar.Brand>
+          <Navbar.Brand className="navbar-brand">Todo Dashboard</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
